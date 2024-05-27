@@ -22,7 +22,10 @@ dependencies:
   flutter:
     sdk: flutter
   meta: ^1.8.0
-  stripe_android: ^10.1.1
+  stripe_android:
+    git:
+      url: git@github.com:IhorSavva/stripe_android.git
+      ref: main
   stripe_ios: ^10.1.0
   stripe_platform_interface: ^10.1.1
 dev_dependencies:
